@@ -1,0 +1,18 @@
+
+new SimGroup()
+{
+
+   new TSStatic()
+   {
+      ShapeAsset = "testMaps:warrenMesh_racepole_shape";
+      collisionLOD = "-889389056";
+      position = "11.8841 30.2658 -1.31775";
+   };
+
+   new TSStatic()
+   {
+      ShapeAsset = "testMaps:warrenMesh_racepole_shape";
+      collisionLOD = "-1829502976";
+      position = "-11.6486 30.2658 -1.31775";
+   };
+};
