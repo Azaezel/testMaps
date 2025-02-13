@@ -105,6 +105,7 @@ new Scene(WarrenLevel) {
          MinSize = "0.1";
    };
    new SubScene(raceLayer) {
+      isGlobalLayer = "1";
       LevelAsset = "testMaps:racing";
       gameModes = "racingGame;";
       position = "164.263 30.2659 1.68225";
