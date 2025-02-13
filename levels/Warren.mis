@@ -22,8 +22,11 @@ new Scene(WarrenLevel) {
       MoonMatAsset = "Core_Rendering:moon_wglow";
       useNightCubemap = "1";
       nightCubemap = "nightCubemap";
+      shadowDistance = "500";
       logWeight = "0.9";
+         maxSize = "1";
          mieScattering = "0.0045";
+         MinSize = "0.1";
    };
    new CloudLayer(SkyClouds) {
       TextureAsset = "Core_Rendering:clouds_normal_displacement_image";
@@ -103,6 +106,7 @@ new Scene(WarrenLevel) {
    };
    new SubScene(raceLayer) {
       LevelAsset = "testMaps:racing";
+      gameModes = "racingGame;";
       position = "164.263 30.2659 1.68225";
       scale = "528.236 771.813 62.2351";
          maxSize = "1";
@@ -808,14 +812,6 @@ new Scene(WarrenLevel) {
             MinSize = "0.1";
       };
    };
-   new SpawnSphere(farOut) {
-      radius = "1";
-      dataBlock = "SpawnSphereMarker";
-      position = "338.156 -506.973 140.481";
-         firstDataCheck = "1";
-         maxSize = "1";
-         MinSize = "0.1";
-   };
    new SpawnSphere(origin) {
       radius = "1";
       dataBlock = "SpawnSphereMarker";
@@ -863,6 +859,22 @@ new Scene(WarrenLevel) {
       minClumpCount[0] = "10";
       maxClumpCount[0] = "20";
       position = "-65 87 -45";
+         maxSize = "1";
+         MinSize = "0.1";
+   };
+   new SpawnSphere(Team1) {
+      radius = "1";
+      dataBlock = "SpawnSphereMarker";
+      position = "465.366 -280.366 48.362";
+         firstDataCheck = "1";
+         maxSize = "1";
+         MinSize = "0.1";
+   };
+   new SpawnSphere(Team2) {
+      radius = "1";
+      dataBlock = "SpawnSphereMarker";
+      position = "-109.464 161.367 47.8384";
+         firstDataCheck = "1";
          maxSize = "1";
          MinSize = "0.1";
    };

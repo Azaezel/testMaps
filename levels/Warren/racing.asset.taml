@@ -6,4 +6,5 @@
     ForestFile="@assetFile=racing.forest"
     NavmeshFile="@assetFile=racing.nav"
     isSubScene="true"
+    gameModesNames="racingGame;"
     VersionId="1"/>

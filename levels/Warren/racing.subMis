@@ -2,6 +2,52 @@
 new SimGroup()
 {
 
+   new SimGroup(RaceLine)
+   {
+      MinSize = "0.1";
+      maxSize = "1";
+
+      new SpawnSphere(Racer1)
+      {
+         radius = "1";
+         dataBlock = "SpawnSphereMarker";
+         position = "-6.47544 12.8276 1.14267";
+         MinSize = "0.1";
+         maxSize = "1";
+         firstDataCheck = "1";
+      };
+
+      new SpawnSphere(Racer2)
+      {
+         radius = "1";
+         dataBlock = "SpawnSphereMarker";
+         position = "-0.405321 12.8276 1.14267";
+         MinSize = "0.1";
+         maxSize = "1";
+         firstDataCheck = "1";
+      };
+
+      new SpawnSphere(Racer3)
+      {
+         radius = "1";
+         dataBlock = "SpawnSphereMarker";
+         position = "5.57128 12.8276 1.14267";
+         MinSize = "0.1";
+         maxSize = "1";
+         firstDataCheck = "1";
+      };
+
+      new SpawnSphere(Racer4)
+      {
+         radius = "1";
+         dataBlock = "SpawnSphereMarker";
+         position = "11.8091 12.8276 1.14267";
+         MinSize = "0.1";
+         maxSize = "1";
+         firstDataCheck = "1";
+      };
+   };
+
    new TSStatic()
    {
       ShapeAsset = "testMaps:warrenMesh_racepole_shape";
