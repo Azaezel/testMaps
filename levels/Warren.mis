@@ -97,7 +97,7 @@ new Scene(WarrenLevel) {
       foamRippleInfluence = "0.5";
       DepthGradientTex = "Core_Rendering:depthcolor_ramp_image";
       DepthGradientTexAsset = "Core_Rendering:depthcolor_ramp_image";
-      position = "0 0 -21.8525";
+      position = "0 0 -21";
          maxSize = "1";
          MinSize = "0.1";
    };
@@ -820,6 +820,49 @@ new Scene(WarrenLevel) {
       radius = "1";
       dataBlock = "SpawnSphereMarker";
          firstDataCheck = "1";
+         maxSize = "1";
+         MinSize = "0.1";
+   };
+   new GroundCover() {
+      MaterialAsset = "testMaps:plant1";
+      radius = "500";
+      dissolveRadius = "400";
+      maxElements = "2000000";
+      layer[0] = "testMaps:grassy_dry";
+      probability[0] = "1";
+      sizeMax[0] = "3";
+      minClumpCount[0] = "10";
+      maxClumpCount[0] = "20";
+      position = "-85.5632 75.8432 -40.9307";
+         maxSize = "1";
+         MinSize = "0.1";
+   };
+   new GroundCover() {
+      MaterialAsset = "testMaps:Grass";
+      radius = "500";
+      dissolveRadius = "400";
+      maxElements = "2000000";
+      layer[0] = "testMaps:dirt_grass";
+      probability[0] = "1";
+      sizeMax[0] = "2";
+      minClumpCount[0] = "3";
+      maxClumpCount[0] = "7";
+      clumpRadius[0] = "2";
+      position = "-74.2619 31.7718 -48.6462";
+         maxSize = "1";
+         MinSize = "0.1";
+   };
+   new GroundCover() {
+      MaterialAsset = "testMaps:plant2";
+      radius = "500";
+      dissolveRadius = "400";
+      maxElements = "2000000";
+      layer[0] = "testMaps:grassy";
+      probability[0] = "1";
+      sizeMax[0] = "2";
+      minClumpCount[0] = "10";
+      maxClumpCount[0] = "20";
+      position = "-65 87 -45";
          maxSize = "1";
          MinSize = "0.1";
    };

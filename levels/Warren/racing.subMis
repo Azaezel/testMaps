@@ -13,6 +13,6 @@ new SimGroup()
    {
       ShapeAsset = "testMaps:warrenMesh_racepole_shape";
       collisionLOD = "-1829502976";
-      position = "-11.6486 30.2658 -1.31775";
+      position = "-10.509 30.2658 -1.31775";
    };
 };
