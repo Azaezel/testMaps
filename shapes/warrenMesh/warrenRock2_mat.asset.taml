@@ -3,7 +3,7 @@
     materialDefinitionName="warrenRock2_mat">
     <Material
         Name="warrenRock2_mat"
-        mapTo="warrenRock"
+        mapTo="warrenRock2"
         originalAssetName="warrenRock2_mat">
         <Material.Stages>
             <Stages_beginarray
