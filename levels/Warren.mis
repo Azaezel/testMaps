@@ -2838,6 +2838,56 @@ new Scene(WarrenLevel) {
          maxSize = "1";
          MinSize = "0.1";
    };
+   new BoxEnvironmentProbe() {
+      attenuation = "0.25";
+      refScale = "7.5 7.5 7.5";
+      position = "20.5513 195.672 24.0563";
+      rotation = "0 0 1 26.5161";
+      scale = "7.5 7.5 7.5";
+      persistentId = "c94ef2b8-ee98-11ef-ac35-fa81cef3c2e3";
+         maxSize = "1";
+         MinSize = "0.1";
+   };
+   new BoxEnvironmentProbe() {
+      attenuation = "0.25";
+      refScale = "7.5 7.5 7.5";
+      position = "23.8656 194.018 24.0563";
+      rotation = "0 0 1 26.5161";
+      scale = "7.5 7.5 7.5";
+      persistentId = "d77d539f-ee98-11ef-ac35-fa81cef3c2e3";
+         maxSize = "1";
+         MinSize = "0.1";
+   };
+   new BoxEnvironmentProbe() {
+      attenuation = "0.25";
+      refScale = "7.5 7.5 7.5";
+      position = "30.4879 191.287 24.0563";
+      rotation = "0 0 1 26.5161";
+      scale = "7.5 7.5 7.5";
+      persistentId = "dec2e6c4-ee98-11ef-ac35-fa81cef3c2e3";
+         maxSize = "1";
+         MinSize = "0.1";
+   };
+   new BoxEnvironmentProbe() {
+      attenuation = "0.25";
+      refScale = "7.5 7.5 7.5";
+      position = "27.1736 192.941 24.0563";
+      rotation = "0 0 1 26.5161";
+      scale = "7.5 7.5 7.5";
+      persistentId = "dec6392e-ee98-11ef-ac35-fa81cef3c2e3";
+         maxSize = "1";
+         MinSize = "0.1";
+   };
+   new BoxEnvironmentProbe() {
+      attenuation = "0.25";
+      refScale = "7.5 7.5 7.5";
+      position = "33.7684 189.453 24.0563";
+      rotation = "0 0 1 26.5161";
+      scale = "7.5 7.5 7.5";
+      persistentId = "e8ce584e-ee98-11ef-ac35-fa81cef3c2e3";
+         maxSize = "1";
+         MinSize = "0.1";
+   };
 };
 //--- OBJECT WRITE END ---
 
