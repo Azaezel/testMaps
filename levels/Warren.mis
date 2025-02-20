@@ -8,7 +8,7 @@ new Scene(WarrenLevel) {
    new LevelInfo(theLevelInfo) {
       FogColor = "0.6 0.6 0.7 1";
       fogDensityOffset = "700";
-      canvasClearColor = "0 0 0 255";
+      canvasClearColor = "255 255 255 255";
       soundAmbience = "AudioAmbienceDefault";
          enabled = "1";
          maxSize = "1";
@@ -117,83 +117,1667 @@ new Scene(WarrenLevel) {
          maxSize = "1";
          MinSize = "0.1";
 
-      new ParticleEmitterNode() {
-         emitter = "FireEmitter";
-         dataBlock = "DefaultEmitterNodeData";
-         position = "283.649 18.1143 22.2756";
-            firstDataCheck = "1";
+      new PointLight() {
+         radius = "3";
+         color = "1 0.002125 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "413.392 -325.22 21.7736";
             maxSize = "1";
             MinSize = "0.1";
       };
       new ParticleEmitterNode() {
          emitter = "FireEmitter";
          dataBlock = "DefaultEmitterNodeData";
-         position = "185.804 64.9348 22.7278";
+         position = "413.391 -325.22 21.9955";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "-180.211 12.9184 22.0194";
             firstDataCheck = "1";
             maxSize = "1";
             MinSize = "0.1";
       };
       new PointLight() {
-         radius = "10";
+         radius = "3";
          color = "1 0.002125 0.002125 1";
-         brightness = "10";
+         brightness = "0.5";
          animate = "1";
          animationType = "FireLightAnim";
-         position = "283.65 18.1143 22.0537";
+         position = "437.041 -326.059 33.7568";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "-183.684 -25.5471 22.0194";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "0.002125 1 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "-180.21 12.9184 21.7975";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "-163.995 -81.4612 22.0194";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "0.002125 1 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "-183.683 -25.5471 21.7975";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "-158.722 -131.168 22.0194";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "0.002125 1 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "-163.994 -81.4612 21.7975";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "-164.644 -172.111 22.0194";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "0.002125 1 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "-158.721 -131.168 21.7975";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "-154.252 -206.355 22.0194";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "0.002125 1 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "-164.643 -172.111 21.7975";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "-158.35 -229.923 22.0194";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "0.002125 1 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "-154.251 -206.355 21.7975";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "-143.094 -250.975 22.0194";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "0.002125 1 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "-158.349 -229.923 21.7975";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "-121.556 -281.154 22.0194";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "0.002125 1 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "-143.093 -250.975 21.7975";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "-90.2812 -302.501 22.0194";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "0.002125 1 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "-121.555 -281.154 21.7975";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "-82.915 -311.028 22.0194";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "0.002125 1 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "-90.2802 -302.501 21.7975";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "-32.4727 -335.797 22.0194";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "0.002125 1 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "-82.914 -311.028 21.7975";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "-11.4895 -356.992 22.0194";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "0.002125 1 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "-32.4717 -335.797 21.7975";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "5.05546 -369.548 22.0194";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "0.002125 1 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "-11.4885 -356.992 21.7975";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "-8.49364 -304.509 22.0194";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "0.002125 1 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "5.05646 -369.548 21.7975";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "12.7674 -278.215 22.0194";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "0.002125 1 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "-8.49264 -304.509 21.7975";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "35.3532 -250.97 22.0194";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "0.002125 1 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "12.7684 -278.215 21.7975";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "-168.785 61.5601 22.0194";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "0.002125 1 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "35.3542 -250.97 21.7975";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "-165.036 80.2273 22.0194";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "0.002125 1 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "-168.784 61.5601 21.7975";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "-146.005 114.961 22.0194";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "0.002125 1 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "-165.035 80.2273 21.7975";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "-124.115 84.5237 22.0194";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "0.002125 1 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "-146.004 114.961 21.7975";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "-90.1887 75.7315 22.0194";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "0.002125 1 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "-124.114 84.5237 21.7975";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "-73.3926 63.1502 22.0194";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "0.002125 1 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "-90.1877 75.7315 21.7975";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "-35.5997 57.3011 22.0194";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "0.002125 1 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "-73.3916 63.1502 21.7975";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "-130.251 151.802 22.0194";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "0.002125 1 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "-35.5987 57.3011 21.7975";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "-111.998 186.712 22.0194";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "0.002125 1 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "-130.25 151.802 21.7975";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "-97.871 206.747 22.0194";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "0.002125 1 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "-111.997 186.712 21.7975";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "-88.6479 239.012 22.0194";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "0.002125 1 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "-97.87 206.747 21.7975";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "-67.7069 238.231 22.0194";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "0.002125 1 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "-88.6469 239.012 21.7975";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "40.7207 184.637 22.0194";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "0.002125 1 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "-67.7059 238.231 21.7975";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "63.8771 160.933 22.0194";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "0.002125 1 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "40.7217 184.637 21.7975";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "94.3187 144.547 22.0194";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "0.002125 1 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "63.8781 160.933 21.7975";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "129.04 127.736 22.0194";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "0.002125 1 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "94.3197 144.547 21.7975";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "161.152 120.602 22.0194";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "0.002125 1 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "129.041 127.736 21.7975";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "195.093 113.277 22.0194";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "0.002125 1 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "161.153 120.602 21.7975";
             maxSize = "1";
             MinSize = "0.1";
       };
       new ParticleEmitterNode() {
          emitter = "FireEmitter";
          dataBlock = "DefaultEmitterNodeData";
-         position = "-32.0566 -334.996 22.2814";
+         position = "168.986 73.581 22.7278";
             firstDataCheck = "1";
             maxSize = "1";
             MinSize = "0.1";
       };
       new PointLight() {
-         radius = "10";
-         color = "1 0.002125 0.002125 1";
-         brightness = "10";
+         radius = "3";
+         color = "0.002125 1 0.002125 1";
+         brightness = "0.5";
          animate = "1";
          animationType = "FireLightAnim";
-         position = "185.805 64.9348 22.5059";
+         position = "195.094 113.277 21.7975";
             maxSize = "1";
             MinSize = "0.1";
       };
       new ParticleEmitterNode() {
          emitter = "FireEmitter";
          dataBlock = "DefaultEmitterNodeData";
-         position = "-142.67 -250.79 22.412";
+         position = "216.872 44.457 22.7278";
             firstDataCheck = "1";
             maxSize = "1";
             MinSize = "0.1";
       };
       new PointLight() {
-         radius = "10";
+         radius = "3";
          color = "1 0.002125 0.002125 1";
-         brightness = "10";
+         brightness = "0.5";
          animate = "1";
          animationType = "FireLightAnim";
-         position = "-32.0555 -334.996 22.0595";
+         position = "168.987 73.581 22.5059";
             maxSize = "1";
             MinSize = "0.1";
       };
       new ParticleEmitterNode() {
          emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "242.247 33.0246 22.7278";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "1 0.002125 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "216.873 44.457 22.5059";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "262.279 27.2502 22.7278";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "1 0.002125 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "242.248 33.0246 22.5059";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "274.504 -0.915998 22.7278";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "1 0.002125 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "262.28 27.2502 22.5059";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "261.575 -19.5172 22.7278";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "1 0.002125 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "274.505 -0.915998 22.5059";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "251.703 -47.2265 22.7278";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "1 0.002125 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "261.576 -19.5172 22.5059";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "272.39 -83.0331 22.7278";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "1 0.002125 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "251.704 -47.2265 22.5059";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "129.29 -17.5714 22.0194";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "1 0.002125 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "272.391 -83.0331 22.5059";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "151.694 -6.10621 22.0194";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "0.002125 1 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "129.291 -17.5714 21.7975";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "169.167 20.3746 22.0194";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "0.002125 1 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "151.695 -6.10621 21.7975";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "160.717 6.68166 22.7278";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "0.002125 1 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "169.168 20.3746 21.7975";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "172.919 34.8786 22.7278";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "1 0.002125 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "160.718 6.68166 22.5059";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "178.032 49.1552 22.0194";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "1 0.002125 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "172.92 34.8786 22.5059";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "186.388 69.1701 22.0194";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "0.002125 1 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "178.033 49.1552 21.7975";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "201.113 103.402 22.0194";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "0.002125 1 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "186.389 69.1701 21.7975";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "193.863 83.8063 22.0194";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "0.002125 1 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "201.114 103.402 21.7975";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "171.912 -31.0764 22.4612";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "0.002125 1 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "193.864 83.8063 21.7975";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "219.694 -54.9785 22.4612";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "1 0.002125 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "171.913 -31.0763 22.2394";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "176.235 -59.1124 22.4612";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "1 0.002125 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "219.695 -54.9784 22.2394";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "165.328 -80.6529 22.4612";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "1 0.002125 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "176.236 -59.1123 22.2394";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "281.95 -123.042 22.4612";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "1 0.002125 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "165.329 -80.6528 22.2394";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "203.867 53.6174 22.7278";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "1 0.002125 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "281.951 -123.042 22.2394";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "157.833 -25.9757 22.0194";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "1 0.002125 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "203.868 53.6174 22.5059";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "179.547 -37.0112 22.0194";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "0.002125 1 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "157.834 -25.9757 21.7975";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "207.403 -50.6735 22.0194";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "0.002125 1 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "179.548 -37.0112 21.7975";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "255.588 -34.7577 22.0194";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "0.002125 1 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "207.404 -50.6735 21.7975";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "226.437 39.015 22.0194";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "0.002125 1 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "255.589 -34.7577 21.7975";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "280.37 19.424 22.0194";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "0.002125 1 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "226.438 39.015 21.7975";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "269 -8.6473 22.0194";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "0.002125 1 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "280.371 19.424 21.7975";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "241.701 -67.308 22.0194";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "0.002125 1 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "269.001 -8.6473 21.7975";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "283.371 13.6584 22.2756";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "0.002125 1 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "241.702 -67.308 21.7975";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "298.67 39.9252 22.2756";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "1 0.002125 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "283.372 13.6584 22.0537";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "298.942 55.2118 22.2756";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "1 0.002125 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "298.671 39.9252 22.0537";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "307.334 61.1994 22.2756";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "1 0.002125 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "298.943 55.2118 22.0537";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "314.715 59.7344 22.2756";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "1 0.002125 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "307.335 61.1994 22.0537";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "109.668 -7.67653 22.0194";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "1 0.002125 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "314.716 59.7344 22.0537";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "278.75 -141.389 22.4612";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "0.002125 1 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "109.669 -7.67653 21.7975";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "281.336 -172.052 22.4612";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "1 0.002125 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "278.751 -141.389 22.2394";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "261.632 -218.729 22.4612";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "1 0.002125 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "281.337 -172.052 22.2394";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "247.27 -239.462 22.4612";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "1 0.002125 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "261.633 -218.729 22.2394";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "275.602 -195.301 22.4612";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "1 0.002125 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "247.271 -239.462 22.2394";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "307.757 -108.538 22.4612";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "1 0.002125 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "275.603 -195.301 22.2394";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "402.697 19.8693 22.4612";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "1 0.002125 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "307.758 -108.538 22.2394";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "421.753 7.49973 22.4612";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "1 0.002125 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "402.698 19.8693 22.2394";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "433.095 -11.4278 22.4612";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "1 0.002125 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "421.754 7.49973 22.2394";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "432.904 -30.8214 22.4612";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "1 0.002125 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "433.096 -11.4278 22.2394";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "421.353 -202.768 22.4612";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "1 0.002125 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "432.905 -30.8214 22.2394";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "427.259 -249.361 22.4612";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "1 0.002125 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "421.354 -202.768 22.2394";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "423.659 -281.237 22.4612";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "1 0.002125 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "427.26 -249.361 22.2394";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "415.584 -307.088 22.4612";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "1 0.002125 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "423.66 -281.237 22.2394";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "425.754 -267.031 22.4612";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "1 0.002125 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "415.585 -307.088 22.2394";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "426.842 -326.059 27.4865";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "1 0.002125 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "425.755 -267.031 22.2394";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "437.04 -326.059 33.9787";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "1 0.002125 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "426.843 -326.059 27.2646";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "286.432 20.6994 22.2756";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "188.395 63.9627 22.7278";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "1 0.002125 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "286.433 20.6994 22.0537";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "3";
+         color = "1 0.002125 0.002125 1";
+         brightness = "0.5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "188.396 63.9627 22.5059";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
          dataBlock = "DefaultEmitterNodeData";
          position = "-186.12 45.829 22.0194";
             firstDataCheck = "1";
-            maxSize = "1";
-            MinSize = "0.1";
-      };
-      new PointLight() {
-         radius = "10";
-         color = "1 0.002125 0.002125 1";
-         brightness = "10";
-         animate = "1";
-         animationType = "FireLightAnim";
-         position = "-142.669 -250.79 22.1901";
             maxSize = "1";
             MinSize = "0.1";
       };
@@ -206,9 +1790,9 @@ new Scene(WarrenLevel) {
             MinSize = "0.1";
       };
       new PointLight() {
-         radius = "10";
-         color = "1 0.002125 0.002125 1";
-         brightness = "10";
+         radius = "3";
+         color = "0.002125 1 0.002125 1";
+         brightness = "0.5";
          animate = "1";
          animationType = "FireLightAnim";
          position = "-186.119 45.829 21.7975";
@@ -216,40 +1800,22 @@ new Scene(WarrenLevel) {
             MinSize = "0.1";
       };
       new PointLight() {
-         radius = "10";
+         radius = "3";
          color = "1 0.002125 0.002125 1";
-         brightness = "10";
+         brightness = "0.5";
          animate = "1";
          animationType = "FireLightAnim";
          position = "144.458 -21.6844 22.0876";
             maxSize = "1";
             MinSize = "0.1";
       };
-      new ParticleEmitterNode() {
-         emitter = "FireEmitter";
-         dataBlock = "DefaultEmitterNodeData";
-         position = "-147.096 113.171 22.4216";
-            firstDataCheck = "1";
-            maxSize = "1";
-            MinSize = "0.1";
-      };
       new PointLight() {
-         radius = "10";
+         radius = "3";
          color = "1 0.002125 0.002125 1";
-         brightness = "10";
+         brightness = "0.5";
          animate = "1";
          animationType = "FireLightAnim";
          position = "190.607 -44.1592 22.2394";
-            maxSize = "1";
-            MinSize = "0.1";
-      };
-      new PointLight() {
-         radius = "10";
-         color = "1 0.002125 0.002125 1";
-         brightness = "10";
-         animate = "1";
-         animationType = "FireLightAnim";
-         position = "-147.095 113.171 22.1997";
             maxSize = "1";
             MinSize = "0.1";
       };
@@ -262,7 +1828,7 @@ new Scene(WarrenLevel) {
             MinSize = "0.1";
       };
       new ParticleEmitterNode() {
-         emitter = "FireEmitter";
+         emitter = "FireGreenEmitter";
          dataBlock = "DefaultEmitterNodeData";
          position = "-228.023 66.5456 22.039";
             firstDataCheck = "1";
@@ -270,19 +1836,19 @@ new Scene(WarrenLevel) {
             MinSize = "0.1";
       };
       new PointLight() {
-         radius = "10";
+         radius = "3";
          color = "1 0.002125 0.002125 1";
-         brightness = "10";
+         brightness = "0.5";
          animate = "1";
          animationType = "FireLightAnim";
-         position = "245.608 -68.1469 21.8539";
+         position = "248.958 -71.1555 21.8539";
             maxSize = "1";
             MinSize = "0.1";
       };
       new PointLight() {
-         radius = "10";
-         color = "1 0.002125 0.002125 1";
-         brightness = "10";
+         radius = "3";
+         color = "0.002125 1 0.002125 1";
+         brightness = "0.5";
          animate = "1";
          animationType = "FireLightAnim";
          position = "-228.022 66.5456 21.8171";
@@ -292,7 +1858,7 @@ new Scene(WarrenLevel) {
       new ParticleEmitterNode() {
          emitter = "FireEmitter";
          dataBlock = "DefaultEmitterNodeData";
-         position = "245.607 -68.147 22.0757";
+         position = "248.957 -71.1557 22.0757";
             firstDataCheck = "1";
             maxSize = "1";
             MinSize = "0.1";
@@ -306,9 +1872,9 @@ new Scene(WarrenLevel) {
             MinSize = "0.1";
       };
       new PointLight() {
-         radius = "10";
+         radius = "3";
          color = "1 0.002125 0.002125 1";
-         brightness = "10";
+         brightness = "0.5";
          animate = "1";
          animationType = "FireLightAnim";
          position = "290.389 -99.3374 21.7665";
@@ -316,9 +1882,9 @@ new Scene(WarrenLevel) {
             MinSize = "0.1";
       };
       new PointLight() {
-         radius = "10";
+         radius = "3";
          color = "1 0.002125 0.002125 1";
-         brightness = "10";
+         brightness = "0.5";
          animate = "1";
          animationType = "FireLightAnim";
          position = "450.288 -327.458 39.2746";
@@ -334,10 +1900,1247 @@ new Scene(WarrenLevel) {
             MinSize = "0.1";
       };
    };
+   new SimGroup(underpassFlares) {
+         maxSize = "1";
+         MinSize = "0.1";
+
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "-17.7912 254.061 1.54118";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "20";
+         color = "1 0.002125 0.002125 1";
+         brightness = "5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "-17.7912 254.061 1.31938";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "20";
+         color = "1 0.002125 0.002125 1";
+         brightness = "5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "-7.28632 300.825 1.31938";
+         rotation = "0 0 1 198.372";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "-6.32117 300.386 1.09938";
+         rotation = "0 0 1 198.372";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "-7.28632 300.825 1.54118";
+         rotation = "0 0 1 198.372";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "20";
+         color = "0.002125 1 0.002125 1";
+         brightness = "5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "-6.32306 300.387 0.877483";
+         rotation = "0 0 1 198.372";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "20";
+         color = "1 0.002125 0.002125 1";
+         brightness = "5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "31.2079 351.328 1.31938";
+         rotation = "0 0 1 61.7532";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "30.8079 352.31 1.09938";
+         rotation = "0 0 1 61.7532";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "31.2079 351.328 1.54118";
+         rotation = "0 0 1 61.7532";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "20";
+         color = "0.002125 1 0.002125 1";
+         brightness = "5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "30.8085 352.308 0.877483";
+         rotation = "0 0 1 61.7532";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "20";
+         color = "1 0.002125 0.002125 1";
+         brightness = "5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "101.358 381.595 1.31938";
+         rotation = "0 0 -1 113.608";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "101.677 380.584 1.09938";
+         rotation = "0 0 -1 113.608";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "101.358 381.595 1.54118";
+         rotation = "0 0 -1 113.608";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "20";
+         color = "0.002125 1 0.002125 1";
+         brightness = "5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "101.677 380.586 0.877483";
+         rotation = "0 0 -1 113.608";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "20";
+         color = "1 0.002125 0.002125 1";
+         brightness = "5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "173.869 368.966 1.31938";
+         rotation = "0 0 1 113.041";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "174.385 369.892 1.09938";
+         rotation = "0 0 1 113.041";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "173.869 368.966 1.54118";
+         rotation = "0 0 1 113.041";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "20";
+         color = "0.002125 1 0.002125 1";
+         brightness = "5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "174.383 369.89 0.877483";
+         rotation = "0 0 1 113.041";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "20";
+         color = "1 0.002125 0.002125 1";
+         brightness = "5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "232.516 321.767 1.31938";
+         rotation = "-0 0 -1 48.5552";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "231.734 321.051 1.09938";
+         rotation = "-0 0 -1 48.5552";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "232.516 321.767 1.54118";
+         rotation = "-0 0 -1 48.5552";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "20";
+         color = "0.002125 1 0.002125 1";
+         brightness = "5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "231.736 321.052 0.877482";
+         rotation = "-0 0 -1 48.5552";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "20";
+         color = "1 0.002125 0.002125 1";
+         brightness = "5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "253.637 251.071 1.31938";
+         rotation = "0 0 1 181.7";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "254.688 250.927 1.09938";
+         rotation = "0 0 1 181.7";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "253.637 251.071 1.54118";
+         rotation = "0 0 1 181.7";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "20";
+         color = "0.002125 1 0.002125 1";
+         brightness = "5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "254.686 250.928 0.877482";
+         rotation = "0 0 1 181.7";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "20";
+         color = "1 0.002125 0.002125 1";
+         brightness = "5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "255.887 191.031 1.31938";
+         rotation = "-0 0 -1 28.5366";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "254.907 190.627 1.09938";
+         rotation = "-0 0 -1 28.5366";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "255.887 191.031 1.54118";
+         rotation = "-0 0 -1 28.5366";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "20";
+         color = "0.002125 1 0.002125 1";
+         brightness = "5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "254.909 190.627 0.877481";
+         rotation = "-0 0 -1 28.5366";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "-5.94616 252.56 1.54118";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "20";
+         color = "1 0.002125 0.002125 1";
+         brightness = "5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "-5.94616 252.56 1.31938";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "-18.8454 254.173 1.09938";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "20";
+         color = "0.002125 1 0.002125 1";
+         brightness = "5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "-18.8434 254.173 0.877483";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "-3.30656 274.048 1.54118";
+         rotation = "-0 0 -1 69.6753";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "20";
+         color = "1 0.002125 0.002125 1";
+         brightness = "5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "-3.30656 274.048 1.31938";
+         rotation = "-0 0 -1 69.6753";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "-30.3579 269.564 1.09938";
+         rotation = "-0 0 -1 69.6753";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "20";
+         color = "0.002125 1 0.002125 1";
+         brightness = "5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "-30.3572 269.566 0.877483";
+         rotation = "-0 0 -1 69.6753";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "-19.6597 308.585 1.54118";
+         rotation = "0 0 1 218.329";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "20";
+         color = "1 0.002125 0.002125 1";
+         brightness = "5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "-19.6597 308.585 1.31938";
+         rotation = "0 0 1 218.329";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "1.50364 290.668 1.09938";
+         rotation = "0 0 1 218.329";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "20";
+         color = "0.002125 1 0.002125 1";
+         brightness = "5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "1.502 290.67 0.877483";
+         rotation = "0 0 1 218.329";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "-5.42358 335.549 1.54118";
+         rotation = "0 0 1 157.146";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "20";
+         color = "1 0.002125 0.002125 1";
+         brightness = "5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "-5.42358 335.549 1.31938";
+         rotation = "0 0 1 157.146";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "24.4775 318.745 1.09938";
+         rotation = "0 0 1 157.146";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "20";
+         color = "0.002125 1 0.002125 1";
+         brightness = "5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "24.4749 318.745 0.877481";
+         rotation = "0 0 1 157.146";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "35.9985 332.558 1.54118";
+         rotation = "0 0 1 75.9087";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "20";
+         color = "1 0.002125 0.002125 1";
+         brightness = "5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "35.9985 332.558 1.31938";
+         rotation = "0 0 1 75.9087";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "26.4067 365.905 1.09938";
+         rotation = "0 0 1 75.9087";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "20";
+         color = "0.002125 1 0.002125 1";
+         brightness = "5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "26.4074 365.902 0.877481";
+         rotation = "0 0 1 75.9087";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "67.7524 352.295 1.54118";
+         rotation = "0 0 1 6.43774";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "20";
+         color = "1 0.002125 0.002125 1";
+         brightness = "5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "67.7524 352.295 1.31938";
+         rotation = "0 0 1 6.43774";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "54.546 381.799 1.09938";
+         rotation = "0 0 1 6.43774";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "20";
+         color = "0.002125 1 0.002125 1";
+         brightness = "5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "54.549 381.799 0.877481";
+         rotation = "0 0 1 6.43774";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "103.981 397.022 1.54118";
+         rotation = "-0 0 -1 84.0504";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "20";
+         color = "1 0.002125 0.002125 1";
+         brightness = "5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "103.981 397.022 1.31938";
+         rotation = "-0 0 -1 84.0504";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "92.5624 360.724 1.09938";
+         rotation = "-0 0 -1 84.0504";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "20";
+         color = "0.002125 1 0.002125 1";
+         brightness = "5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "92.5624 360.727 0.877481";
+         rotation = "-0 0 -1 84.0504";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "134.626 397.535 1.54118";
+         rotation = "0 0 1 195.531";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "20";
+         color = "1 0.002125 0.002125 1";
+         brightness = "5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "134.626 397.535 1.31938";
+         rotation = "0 0 1 195.531";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "142.386 368.857 1.09938";
+         rotation = "0 0 1 195.531";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "20";
+         color = "0.002125 1 0.002125 1";
+         brightness = "5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "142.383 368.857 0.877481";
+         rotation = "0 0 1 195.531";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "166.078 357.113 1.54118";
+         rotation = "0 0 1 106.086";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "20";
+         color = "1 0.002125 0.002125 1";
+         brightness = "5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "166.078 357.113 1.31938";
+         rotation = "0 0 1 106.086";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "185.053 384.383 1.09938";
+         rotation = "0 0 1 106.086";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "20";
+         color = "0.002125 1 0.002125 1";
+         brightness = "5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "185.053 384.38 0.877481";
+         rotation = "0 0 1 106.086";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "221.228 356.668 1.54118";
+         rotation = "0 0 1 0.153233";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "20";
+         color = "1 0.002125 0.002125 1";
+         brightness = "5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "221.228 356.668 1.31938";
+         rotation = "0 0 1 0.153233";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "192.286 339.417 1.09938";
+         rotation = "0 0 1 0.153233";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "20";
+         color = "0.002125 1 0.002125 1";
+         brightness = "5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "192.289 339.418 0.877483";
+         rotation = "0 0 1 0.153233";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "249.404 324.075 1.54118";
+         rotation = "-0 0 -1 38.2303";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "20";
+         color = "1 0.002125 0.002125 1";
+         brightness = "5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "249.404 324.075 1.31938";
+         rotation = "-0 0 -1 38.2303";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "211.143 322.846 1.09938";
+         rotation = "-0 0 -1 38.2303";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "20";
+         color = "0.002125 1 0.002125 1";
+         brightness = "5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "211.145 322.849 0.877483";
+         rotation = "-0 0 -1 38.2303";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "262.516 292.018 1.54118";
+         rotation = "-0 0 -1 82.6436";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "20";
+         color = "1 0.002125 0.002125 1";
+         brightness = "5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "262.516 292.018 1.31938";
+         rotation = "-0 0 -1 82.6436";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "236.713 281.965 1.09938";
+         rotation = "-0 0 -1 82.6436";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "20";
+         color = "0.002125 1 0.002125 1";
+         brightness = "5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "236.712 281.968 0.877483";
+         rotation = "-0 0 -1 82.6436";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "243.379 256.362 1.54118";
+         rotation = "0 0 1 196.935";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "20";
+         color = "1 0.002125 0.002125 1";
+         brightness = "5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "243.379 256.362 1.31938";
+         rotation = "0 0 1 196.935";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "268.899 246.302 1.09938";
+         rotation = "0 0 1 196.935";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "20";
+         color = "0.002125 1 0.002125 1";
+         brightness = "5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "268.896 246.301 0.877483";
+         rotation = "0 0 1 196.935";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "243.975 213.122 1.54118";
+         rotation = "0 0 1 153.234";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "20";
+         color = "1 0.002125 0.002125 1";
+         brightness = "5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "243.975 213.122 1.31938";
+         rotation = "0 0 1 153.234";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new ParticleEmitterNode() {
+         emitter = "FireGreenEmitter";
+         dataBlock = "DefaultEmitterNodeData";
+         position = "270.805 210.391 1.09938";
+         rotation = "0 0 1 153.234";
+            firstDataCheck = "1";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new PointLight() {
+         radius = "20";
+         color = "0.002125 1 0.002125 1";
+         brightness = "5";
+         animate = "1";
+         animationType = "FireLightAnim";
+         position = "270.803 210.388 0.877483";
+         rotation = "0 0 1 153.234";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+   };
    new SimGroup(probes) {
          maxSize = "1";
          MinSize = "0.1";
 
+      new BoxEnvironmentProbe() {
+         attenuation = "0.25";
+         refScale = "11.521 11.521 11.521";
+         position = "116.328 134.876 23.5859";
+         rotation = "0 0 1 111.017";
+         scale = "11.521 11.521 11.521";
+         persistentId = "bf21971c-ef05-11ef-8d45-8c89220d6ddf";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new BoxEnvironmentProbe() {
+         attenuation = "0.25";
+         refScale = "6.2042 6.2042 6.2042";
+         position = "139.647 125.314 23.5859";
+         rotation = "0 0 1 111.017";
+         scale = "6.20424 6.2042 6.20424";
+         persistentId = "5c9c98d3-ef05-11ef-8d45-8c89220d6ddf";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new BoxEnvironmentProbe() {
+         attenuation = "0.25";
+         refScale = "13.6898 13.6898 13.6898";
+         position = "158.667 120.245 23.5859";
+         rotation = "0 0 1 111.017";
+         scale = "13.6898 13.6898 13.6898";
+         persistentId = "601634fc-ef05-11ef-8d45-8c89220d6ddf";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new BoxEnvironmentProbe() {
+         attenuation = "0.25";
+         refScale = "11.521 11.521 11.521";
+         position = "121.736 132.798 23.5859";
+         rotation = "0 0 1 111.017";
+         scale = "11.521 11.521 11.521";
+         persistentId = "c8a44361-ef05-11ef-8d45-8c89220d6ddf";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new BoxEnvironmentProbe() {
+         attenuation = "0.25";
+         refScale = "11.521 11.521 11.521";
+         position = "127.234 130.686 23.5859";
+         rotation = "0 0 1 111.017";
+         scale = "11.521 11.521 11.521";
+         persistentId = "d00ce518-ef05-11ef-8d45-8c89220d6ddf";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new BoxEnvironmentProbe() {
+         attenuation = "0.25";
+         refScale = "11.521 11.521 11.521";
+         position = "132.766 128.561 23.5859";
+         rotation = "0 0 1 111.017";
+         scale = "11.521 11.521 11.521";
+         persistentId = "d3dd43b9-ef05-11ef-8d45-8c89220d6ddf";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new BoxEnvironmentProbe() {
+         attenuation = "0.25";
+         refScale = "6.2042 6.2042 6.2042";
+         position = "142.758 124.119 23.5859";
+         rotation = "0 0 1 111.017";
+         scale = "6.20424 6.2042 6.20424";
+         persistentId = "fb276ada-ef05-11ef-8d45-8c89220d6ddf";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new BoxEnvironmentProbe() {
+         attenuation = "0.25";
+         refScale = "6.2042 6.2042 6.2042";
+         position = "145.637 123.013 23.5859";
+         rotation = "0 0 1 111.017";
+         scale = "6.20424 6.2042 6.20424";
+         persistentId = "fd1f68d8-ef05-11ef-8d45-8c89220d6ddf";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new BoxEnvironmentProbe() {
+         attenuation = "0.25";
+         refScale = "6.2042 6.2042 6.2042";
+         position = "148.421 121.943 23.5859";
+         rotation = "0 0 1 111.017";
+         scale = "6.20424 6.2042 6.20424";
+         persistentId = "fed0bad2-ef05-11ef-8d45-8c89220d6ddf";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new BoxEnvironmentProbe() {
+         attenuation = "0.25";
+         refScale = "6.2042 6.2042 6.2042";
+         position = "151.434 120.785 23.5859";
+         rotation = "0 0 1 111.017";
+         scale = "6.20424 6.2042 6.20424";
+         persistentId = "01de45c0-ef06-11ef-8d45-8c89220d6ddf";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new BoxEnvironmentProbe() {
+         attenuation = "0.25";
+         refScale = "13.6898 13.6898 13.6898";
+         position = "165.067 117.786 23.5859";
+         rotation = "0 0 1 111.017";
+         scale = "13.6898 13.6898 13.6898";
+         persistentId = "0fa66b6a-ef06-11ef-8d45-8c89220d6ddf";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new BoxEnvironmentProbe() {
+         attenuation = "0.25";
+         refScale = "13.6898 13.6898 13.6898";
+         position = "171.426 117.676 23.5859";
+         rotation = "0 0 1 111.017";
+         scale = "13.6898 13.6898 13.6898";
+         persistentId = "11d29210-ef06-11ef-8d45-8c89220d6ddf";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new BoxEnvironmentProbe() {
+         attenuation = "0.25";
+         refScale = "13.6898 13.6898 13.6898";
+         position = "178.664 116.839 23.5859";
+         rotation = "0 0 1 111.017";
+         scale = "13.6898 13.6898 13.6898";
+         persistentId = "1565c402-ef06-11ef-8d45-8c89220d6ddf";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new BoxEnvironmentProbe() {
+         attenuation = "0.25";
+         refScale = "13.6898 13.6898 13.6898";
+         position = "185.647 115.758 23.5859";
+         rotation = "0 0 1 103.183";
+         scale = "13.6898 13.6898 13.6898";
+         persistentId = "2661ec9f-ef06-11ef-8d45-8c89220d6ddf";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new BoxEnvironmentProbe() {
+         attenuation = "0.25";
+         refScale = "13.6898 13.6898 13.6898";
+         position = "192.403 113.986 23.5859";
+         rotation = "0 0 1 103.183";
+         scale = "13.6898 13.6898 13.6898";
+         persistentId = "2f78ba5d-ef06-11ef-8d45-8c89220d6ddf";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new BoxEnvironmentProbe() {
+         attenuation = "0.25";
+         refScale = "13.6898 13.6898 13.6898";
+         position = "198.93 111.092 23.5859";
+         rotation = "0 0 1 103.183";
+         scale = "13.6898 13.6898 13.6898";
+         persistentId = "3789f1c6-ef06-11ef-8d45-8c89220d6ddf";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new BoxEnvironmentProbe() {
+         attenuation = "0.25";
+         refScale = "13.6898 13.6898 13.6898";
+         position = "201.119 103.39 23.5859";
+         rotation = "0 0 1 103.183";
+         scale = "13.6898 13.6898 13.6898";
+         persistentId = "3b36caa5-ef06-11ef-8d45-8c89220d6ddf";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new BoxEnvironmentProbe() {
+         attenuation = "0.25";
+         refScale = "13.6898 13.6898 13.6898";
+         position = "200.362 96.3713 23.5859";
+         rotation = "0 0 1 103.183";
+         scale = "13.6898 13.6898 13.6898";
+         persistentId = "4028cc89-ef06-11ef-8d45-8c89220d6ddf";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new BoxEnvironmentProbe() {
+         attenuation = "0.25";
+         refScale = "13.6898 13.6898 13.6898";
+         position = "198.102 89.7343 23.5859";
+         rotation = "0 0 1 103.183";
+         scale = "13.6898 13.6898 13.6898";
+         persistentId = "44608373-ef06-11ef-8d45-8c89220d6ddf";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new BoxEnvironmentProbe() {
+         attenuation = "0.25";
+         refScale = "13.6898 13.6898 13.6898";
+         position = "194.279 83.6949 23.5859";
+         rotation = "0 0 1 121.761";
+         scale = "13.6898 13.6898 13.6898";
+         persistentId = "488f32ef-ef06-11ef-8d45-8c89220d6ddf";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new BoxEnvironmentProbe() {
+         attenuation = "0.25";
+         refScale = "13.6898 13.6898 13.6898";
+         position = "190.652 77.837 23.5859";
+         rotation = "0 0 1 121.761";
+         scale = "13.6898 13.6898 13.6898";
+         persistentId = "531c8f26-ef06-11ef-8d45-8c89220d6ddf";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new BoxEnvironmentProbe() {
+         attenuation = "0.25";
+         refOffset = "75 75 15";
+         refScale = "55 55 15";
+         position = "-16.0552 262.77 5.32275";
+         scale = "75 75 15";
+         persistentId = "529cb05d-ef0f-11ef-8cc2-a547d3d538f0";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new BoxEnvironmentProbe() {
+         attenuation = "0.25";
+         refScale = "75 75 15";
+         position = "-5.10209 298.798 5.32275";
+         rotation = "0 0 1 21.2784";
+         scale = "75 75 15";
+         persistentId = "a36d0a85-ef0f-11ef-8cc2-a547d3d538f0";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new BoxEnvironmentProbe() {
+         attenuation = "0.25";
+         refScale = "75 75 15";
+         position = "9.75663 333.945 5.32275";
+         rotation = "0 0 1 31.9393";
+         scale = "75 75 15";
+         persistentId = "e2d12885-ef0f-11ef-8cc2-a547d3d538f0";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new BoxEnvironmentProbe() {
+         attenuation = "0.25";
+         refScale = "55 55 15";
+         position = "31.475 350.841 5.32275";
+         rotation = "0 0 1 48.6667";
+         scale = "55 55 15";
+         persistentId = "05383da9-ef10-11ef-8cc2-a547d3d538f0";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new BoxEnvironmentProbe() {
+         attenuation = "0.25";
+         refScale = "75 75 15";
+         position = "63.2834 370.86 5.32275";
+         rotation = "0 0 1 57.3829";
+         scale = "75 75 15";
+         persistentId = "129b9a8d-ef10-11ef-8cc2-a547d3d538f0";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new BoxEnvironmentProbe() {
+         attenuation = "0.25";
+         refScale = "75 75 15";
+         position = "99.6763 380.575 5.32275";
+         rotation = "0 0 1 79.9601";
+         scale = "75 75 15";
+         persistentId = "ebea8125-ef11-11ef-b56b-c7e13ce44835";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new BoxEnvironmentProbe() {
+         attenuation = "0.25";
+         refScale = "75 75 15";
+         position = "137.336 377.876 5.32275";
+         rotation = "0 0 1 91.0076";
+         scale = "75 75 15";
+         persistentId = "0cfde7e2-ef12-11ef-b56b-c7e13ce44835";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new BoxEnvironmentProbe() {
+         attenuation = "0.25";
+         refScale = "75 75 15";
+         position = "174.21 369.237 5.32275";
+         rotation = "0 0 1 111.153";
+         scale = "75 75 15";
+         persistentId = "46be13ac-ef12-11ef-b56b-c7e13ce44835";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new BoxEnvironmentProbe() {
+         attenuation = "0.25";
+         refScale = "75 75 15";
+         position = "206.719 349.365 5.32275";
+         rotation = "0 0 1 132.04";
+         scale = "75 75 15";
+         persistentId = "7263b43f-ef12-11ef-b56b-c7e13ce44835";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new BoxEnvironmentProbe() {
+         attenuation = "0.25";
+         refScale = "75 75 15";
+         position = "231.162 324.044 5.32275";
+         rotation = "0 0 1 146.657";
+         scale = "75 75 15";
+         persistentId = "816a46f7-ef12-11ef-b56b-c7e13ce44835";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new BoxEnvironmentProbe() {
+         attenuation = "0.25";
+         refScale = "75 75 15";
+         position = "248.89 288.973 5.32275";
+         rotation = "0 0 1 171.161";
+         scale = "75 75 15";
+         persistentId = "b6450cc5-ef12-11ef-b56b-c7e13ce44835";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new BoxEnvironmentProbe() {
+         attenuation = "0.25";
+         refScale = "75 75 15";
+         position = "253.616 251.699 5.32275";
+         rotation = "0 0 1 176.091";
+         scale = "75 75 15";
+         persistentId = "c2c54004-ef12-11ef-b56b-c7e13ce44835";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new BoxEnvironmentProbe() {
+         attenuation = "0.25";
+         refScale = "75 75 15";
+         position = "256.181 214.167 5.32275";
+         rotation = "0 0 1 176.091";
+         scale = "75 75 15";
+         persistentId = "cff2724d-ef12-11ef-b56b-c7e13ce44835";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new BoxEnvironmentProbe() {
+         attenuation = "0.25";
+         refScale = "75 75 15";
+         position = "125.877 -163.33 3.9863";
+         rotation = "0 0 1 135.336";
+         scale = "75 75 15";
+         persistentId = "cc2ac6dd-ef15-11ef-aee1-9e1ef5879cab";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new BoxEnvironmentProbe() {
+         attenuation = "0.25";
+         refScale = "75 75 15";
+         position = "167.89 -205.839 3.9863";
+         rotation = "0 0 1 135.336";
+         scale = "75 75 15";
+         persistentId = "0213e0e4-ef16-11ef-aee1-9e1ef5879cab";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new BoxEnvironmentProbe() {
+         attenuation = "0.25";
+         refScale = "75 75 15";
+         position = "6.9575 -7.04322 5.53522";
+         scale = "75 75 15";
+         persistentId = "437c9c1b-ef18-11ef-80a4-92f536f48736";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
+      new BoxEnvironmentProbe() {
+         attenuation = "0.25";
+         refScale = "75 75 15";
+         position = "6.9575 67.7759 5.53522";
+         scale = "75 75 15";
+         persistentId = "5adb7a9d-ef18-11ef-80a4-92f536f48736";
+            maxSize = "1";
+            MinSize = "0.1";
+      };
       new BoxEnvironmentProbe() {
          attenuation = "0.25";
          refScale = "11.521 11.521 11.521";
@@ -2571,7 +5374,7 @@ new Scene(WarrenLevel) {
       new BoxEnvironmentProbe() {
          attenuation = "0.25";
          refScale = "20 20 20";
-         position = "173.201 35.5567 22.3676";
+         position = "173.852 35.5567 23.5102";
          rotation = "0 0 1 16.6881";
          scale = "20 20 20";
          persistentId = "a1d1f194-cea9-11ef-a827-991e5ebd3551";
@@ -2581,7 +5384,7 @@ new Scene(WarrenLevel) {
       new BoxEnvironmentProbe() {
          attenuation = "0.25";
          refScale = "20 20 20";
-         position = "177.903 51.2413 23.9586";
+         position = "177.538 48.6567 23.9586";
          rotation = "0 0 1 16.6881";
          scale = "20 20 20";
          persistentId = "b3bc4246-cea9-11ef-a827-991e5ebd3551";
@@ -3067,234 +5870,6 @@ new Scene(WarrenLevel) {
       dataBlock = "SpawnSphereMarker";
       position = "-109.464 161.367 47.8384";
          firstDataCheck = "1";
-         maxSize = "1";
-         MinSize = "0.1";
-   };
-   new ParticleEmitterNode() {
-      emitter = "FireEmitter";
-      dataBlock = "DefaultEmitterNodeData";
-      position = "413.391 -325.22 21.9955";
-         firstDataCheck = "1";
-         maxSize = "1";
-         MinSize = "0.1";
-   };
-   new PointLight() {
-      radius = "10";
-      color = "1 0.002125 0.002125 1";
-      brightness = "10";
-      animate = "1";
-      animationType = "FireLightAnim";
-      position = "413.392 -325.22 21.7736";
-         maxSize = "1";
-         MinSize = "0.1";
-   };
-   new BoxEnvironmentProbe() {
-      attenuation = "0.25";
-      refScale = "11.521 11.521 11.521";
-      position = "116.328 134.876 23.5859";
-      rotation = "0 0 1 111.017";
-      scale = "11.521 11.521 11.521";
-      persistentId = "bf21971c-ef05-11ef-8d45-8c89220d6ddf";
-         maxSize = "1";
-         MinSize = "0.1";
-   };
-   new BoxEnvironmentProbe() {
-      attenuation = "0.25";
-      refScale = "6.2042 6.2042 6.2042";
-      position = "139.647 125.314 23.5859";
-      rotation = "0 0 1 111.017";
-      scale = "6.20424 6.2042 6.20424";
-      persistentId = "5c9c98d3-ef05-11ef-8d45-8c89220d6ddf";
-         maxSize = "1";
-         MinSize = "0.1";
-   };
-   new BoxEnvironmentProbe() {
-      attenuation = "0.25";
-      refScale = "13.6898 13.6898 13.6898";
-      position = "158.667 120.245 23.5859";
-      rotation = "0 0 1 111.017";
-      scale = "13.6898 13.6898 13.6898";
-      persistentId = "601634fc-ef05-11ef-8d45-8c89220d6ddf";
-         maxSize = "1";
-         MinSize = "0.1";
-   };
-   new BoxEnvironmentProbe() {
-      attenuation = "0.25";
-      refScale = "11.521 11.521 11.521";
-      position = "121.736 132.798 23.5859";
-      rotation = "0 0 1 111.017";
-      scale = "11.521 11.521 11.521";
-      persistentId = "c8a44361-ef05-11ef-8d45-8c89220d6ddf";
-         maxSize = "1";
-         MinSize = "0.1";
-   };
-   new BoxEnvironmentProbe() {
-      attenuation = "0.25";
-      refScale = "11.521 11.521 11.521";
-      position = "127.234 130.686 23.5859";
-      rotation = "0 0 1 111.017";
-      scale = "11.521 11.521 11.521";
-      persistentId = "d00ce518-ef05-11ef-8d45-8c89220d6ddf";
-         maxSize = "1";
-         MinSize = "0.1";
-   };
-   new BoxEnvironmentProbe() {
-      attenuation = "0.25";
-      refScale = "11.521 11.521 11.521";
-      position = "132.766 128.561 23.5859";
-      rotation = "0 0 1 111.017";
-      scale = "11.521 11.521 11.521";
-      persistentId = "d3dd43b9-ef05-11ef-8d45-8c89220d6ddf";
-         maxSize = "1";
-         MinSize = "0.1";
-   };
-   new BoxEnvironmentProbe() {
-      attenuation = "0.25";
-      refScale = "6.2042 6.2042 6.2042";
-      position = "142.758 124.119 23.5859";
-      rotation = "0 0 1 111.017";
-      scale = "6.20424 6.2042 6.20424";
-      persistentId = "fb276ada-ef05-11ef-8d45-8c89220d6ddf";
-         maxSize = "1";
-         MinSize = "0.1";
-   };
-   new BoxEnvironmentProbe() {
-      attenuation = "0.25";
-      refScale = "6.2042 6.2042 6.2042";
-      position = "145.637 123.013 23.5859";
-      rotation = "0 0 1 111.017";
-      scale = "6.20424 6.2042 6.20424";
-      persistentId = "fd1f68d8-ef05-11ef-8d45-8c89220d6ddf";
-         maxSize = "1";
-         MinSize = "0.1";
-   };
-   new BoxEnvironmentProbe() {
-      attenuation = "0.25";
-      refScale = "6.2042 6.2042 6.2042";
-      position = "148.421 121.943 23.5859";
-      rotation = "0 0 1 111.017";
-      scale = "6.20424 6.2042 6.20424";
-      persistentId = "fed0bad2-ef05-11ef-8d45-8c89220d6ddf";
-         maxSize = "1";
-         MinSize = "0.1";
-   };
-   new BoxEnvironmentProbe() {
-      attenuation = "0.25";
-      refScale = "6.2042 6.2042 6.2042";
-      position = "151.434 120.785 23.5859";
-      rotation = "0 0 1 111.017";
-      scale = "6.20424 6.2042 6.20424";
-      persistentId = "01de45c0-ef06-11ef-8d45-8c89220d6ddf";
-         maxSize = "1";
-         MinSize = "0.1";
-   };
-   new BoxEnvironmentProbe() {
-      attenuation = "0.25";
-      refScale = "13.6898 13.6898 13.6898";
-      position = "165.067 117.786 23.5859";
-      rotation = "0 0 1 111.017";
-      scale = "13.6898 13.6898 13.6898";
-      persistentId = "0fa66b6a-ef06-11ef-8d45-8c89220d6ddf";
-         maxSize = "1";
-         MinSize = "0.1";
-   };
-   new BoxEnvironmentProbe() {
-      attenuation = "0.25";
-      refScale = "13.6898 13.6898 13.6898";
-      position = "171.426 117.676 23.5859";
-      rotation = "0 0 1 111.017";
-      scale = "13.6898 13.6898 13.6898";
-      persistentId = "11d29210-ef06-11ef-8d45-8c89220d6ddf";
-         maxSize = "1";
-         MinSize = "0.1";
-   };
-   new BoxEnvironmentProbe() {
-      attenuation = "0.25";
-      refScale = "13.6898 13.6898 13.6898";
-      position = "178.664 116.839 23.5859";
-      rotation = "0 0 1 111.017";
-      scale = "13.6898 13.6898 13.6898";
-      persistentId = "1565c402-ef06-11ef-8d45-8c89220d6ddf";
-         maxSize = "1";
-         MinSize = "0.1";
-   };
-   new BoxEnvironmentProbe() {
-      attenuation = "0.25";
-      refScale = "13.6898 13.6898 13.6898";
-      position = "185.647 115.758 23.5859";
-      rotation = "0 0 1 103.183";
-      scale = "13.6898 13.6898 13.6898";
-      persistentId = "2661ec9f-ef06-11ef-8d45-8c89220d6ddf";
-         maxSize = "1";
-         MinSize = "0.1";
-   };
-   new BoxEnvironmentProbe() {
-      attenuation = "0.25";
-      refScale = "13.6898 13.6898 13.6898";
-      position = "192.403 113.986 23.5859";
-      rotation = "0 0 1 103.183";
-      scale = "13.6898 13.6898 13.6898";
-      persistentId = "2f78ba5d-ef06-11ef-8d45-8c89220d6ddf";
-         maxSize = "1";
-         MinSize = "0.1";
-   };
-   new BoxEnvironmentProbe() {
-      attenuation = "0.25";
-      refScale = "13.6898 13.6898 13.6898";
-      position = "198.93 111.092 23.5859";
-      rotation = "0 0 1 103.183";
-      scale = "13.6898 13.6898 13.6898";
-      persistentId = "3789f1c6-ef06-11ef-8d45-8c89220d6ddf";
-         maxSize = "1";
-         MinSize = "0.1";
-   };
-   new BoxEnvironmentProbe() {
-      attenuation = "0.25";
-      refScale = "13.6898 13.6898 13.6898";
-      position = "201.119 103.39 23.5859";
-      rotation = "0 0 1 103.183";
-      scale = "13.6898 13.6898 13.6898";
-      persistentId = "3b36caa5-ef06-11ef-8d45-8c89220d6ddf";
-         maxSize = "1";
-         MinSize = "0.1";
-   };
-   new BoxEnvironmentProbe() {
-      attenuation = "0.25";
-      refScale = "13.6898 13.6898 13.6898";
-      position = "200.362 96.3713 23.5859";
-      rotation = "0 0 1 103.183";
-      scale = "13.6898 13.6898 13.6898";
-      persistentId = "4028cc89-ef06-11ef-8d45-8c89220d6ddf";
-         maxSize = "1";
-         MinSize = "0.1";
-   };
-   new BoxEnvironmentProbe() {
-      attenuation = "0.25";
-      refScale = "13.6898 13.6898 13.6898";
-      position = "198.102 89.7343 23.5859";
-      rotation = "0 0 1 103.183";
-      scale = "13.6898 13.6898 13.6898";
-      persistentId = "44608373-ef06-11ef-8d45-8c89220d6ddf";
-         maxSize = "1";
-         MinSize = "0.1";
-   };
-   new BoxEnvironmentProbe() {
-      attenuation = "0.25";
-      refScale = "13.6898 13.6898 13.6898";
-      position = "194.279 83.6949 23.5859";
-      rotation = "0 0 1 121.761";
-      scale = "13.6898 13.6898 13.6898";
-      persistentId = "488f32ef-ef06-11ef-8d45-8c89220d6ddf";
-         maxSize = "1";
-         MinSize = "0.1";
-   };
-   new BoxEnvironmentProbe() {
-      attenuation = "0.25";
-      refScale = "13.6898 13.6898 13.6898";
-      position = "190.652 77.837 23.5859";
-      rotation = "0 0 1 121.761";
-      scale = "13.6898 13.6898 13.6898";
-      persistentId = "531c8f26-ef06-11ef-8d45-8c89220d6ddf";
          maxSize = "1";
          MinSize = "0.1";
    };
