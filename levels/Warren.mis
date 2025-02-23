@@ -49,14 +49,12 @@ new Scene(WarrenLevel) {
    };
    new TSStatic() {
       ShapeAsset = "testMaps:station01";
-      collisionLOD = "1008664576";
       collisionType = "Visible Mesh";
       decalType = "Visible Mesh";
       position = "-142.014 162.07 42.6209";
    };
    new TSStatic() {
       ShapeAsset = "testMaps:station01";
-      collisionLOD = "1091305472";
       collisionType = "Visible Mesh";
       decalType = "Visible Mesh";
       position = "456.52 -249.489 42.4662";
@@ -64,7 +62,6 @@ new Scene(WarrenLevel) {
    };
    new TSStatic() {
       ShapeAsset = "testMaps:warrenMesh_shape";
-      collisionLOD = "1062731776";
       collisionType = "Visible Mesh";
       decalType = "Visible Mesh";
       position = "222.768 -359.951 21.4806";
