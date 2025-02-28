@@ -1,6 +1,7 @@
 <LevelAsset
     AssetName="Warren"
     LevelFile="@assetFile=Warren.mis"
+    LevelName="Warren"
     PostFXPresetFile="@assetFile=Warren.postfxpreset.tscript"
     DecalsFile="@assetFile=Warren.mis.decals"
     ForestFile="@assetFile=Warren.forest"

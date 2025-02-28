@@ -10,6 +10,7 @@ new Scene(WarrenLevel) {
       fogDensityOffset = "700";
       canvasClearColor = "255 255 255 255";
       soundAmbience = "AudioAmbienceDefault";
+         LevelName = "Warren";
          enabled = "1";
          maxSize = "1";
          MinSize = "0.1";
