@@ -10,8 +10,8 @@ new Scene(WarrenLevel) {
       fogDensityOffset = "700";
       canvasClearColor = "255 255 255 255";
       soundAmbience = "AudioAmbienceDefault";
-         LevelName = "Warren";
          enabled = "1";
+         LevelName = "Warren";
          maxSize = "1";
          MinSize = "0.1";
    };
@@ -5870,6 +5870,14 @@ new Scene(WarrenLevel) {
          firstDataCheck = "1";
          maxSize = "1";
          MinSize = "0.1";
+   };
+   new SubScene() {
+      LevelAsset = "testMaps:WarrenTraps";
+      position = "126.509 153.828 8.68308";
+      scale = "495.494 763.665 45.2553";
+         maxSize = "1";
+         MinSize = "0.1";
+         result = "0";
    };
 };
 //--- OBJECT WRITE END ---
