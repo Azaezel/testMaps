@@ -2,6 +2,68 @@
 new SimGroup()
 {
 
+   new TSStatic()
+   {
+      ShapeAsset = "testMaps:rock2_shape";
+      skin = "rock2=warrenRock";
+      position = "61.477 -80.3481 -3.54321";
+      rotation = "0 0 -1 83.8325";
+   };
+
+   new TSStatic()
+   {
+      ShapeAsset = "testMaps:rock1_shape";
+      skin = "rock2=warrenRock";
+      position = "70.7851 -91.2406 -0.330553";
+      rotation = "-0.656353 -0.170716 0.734886 201.642";
+   };
+
+   new TSStatic()
+   {
+      ShapeAsset = "testMaps:rock3_shape";
+      skin = "rock2=warrenRock";
+      position = "73.3514 -94.7313 -5.94412";
+      rotation = "0 0 1 239.297";
+   };
+
+   new TSStatic()
+   {
+      ShapeAsset = "testMaps:rock3_shape";
+      skin = "rock2=warrenRock";
+      position = "29.5886 -57.5578 -6.74414";
+      rotation = "0 0 1 239.297";
+   };
+
+   new TSStatic()
+   {
+      ShapeAsset = "testMaps:rock3_shape";
+      skin = "rock2=warrenRock";
+      position = "331.457 -252.909 14.4109";
+   };
+
+   new TSStatic()
+   {
+      ShapeAsset = "testMaps:rock3_shape";
+      skin = "rock2=warrenRock";
+      position = "58.6473 -76.4353 -5.94412";
+   };
+
+   new TSStatic()
+   {
+      ShapeAsset = "testMaps:rock2_shape";
+      skin = "rock2=warrenRock";
+      position = "41.7848 -69.6177 -1.79843";
+      rotation = "0 0 1 72.9864";
+   };
+
+   new TSStatic()
+   {
+      ShapeAsset = "testMaps:rock1_shape";
+      skin = "rock2=warrenRock";
+      position = "47.2709 -70.8397 -0.330553";
+      rotation = "0 0 1 209.159";
+   };
+
    new SimGroup(startingLights)
    {
       maxSize = "1";
@@ -241,9 +303,9 @@ new SimGroup()
       new Trigger()
       {
          dataBlock = "RacingTrigger";
-         position = "55.6863 -98.1463 -0.822403";
+         position = "55.6863 -98.1463 -4.36319";
          rotation = "0 0 -1 35.5132";
-         scale = "25.5333 7.25841 11.0318";
+         scale = "55.3862 7.25841 14.2182";
          firstDataCheck = "1";
          order = "18";
          maxSize = "1";
