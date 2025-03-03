@@ -5875,6 +5875,7 @@ new Scene(WarrenLevel) {
       LevelAsset = "testMaps:WarrenTraps";
       position = "126.509 153.828 8.68308";
       scale = "495.494 763.665 45.2553";
+      loadIf = "isObject(trapsNTriggers)";
          maxSize = "1";
          MinSize = "0.1";
          result = "0";
